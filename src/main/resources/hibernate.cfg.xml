@@ -10,7 +10,9 @@
 
         <!-- Database connection settings -->
         <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
-        <property name="connection.url">jdbc:mysql://localhost:3306/team_project</property>
+        <property name="connection.url">jdbc:mysql://localhost:3306/team_project_testing</property>
+        <property name="connection.username">root</property>
+        <property name="connection.password">l33tdigglemysql</property>
 
         <!-- SQL dialect -->
         <property name="dialect">org.hibernate.dialect.MySQL5Dialect</property>

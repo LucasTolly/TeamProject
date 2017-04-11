@@ -6,7 +6,7 @@ import javax.persistence.*;
  * Created by Joe on 3/24/2017.
  */
 @Entity
-@Table(name = "classes", schema = "team_project", catalog = "")
+@Table(name = "classes", schema = "team_project_testing", catalog = "")
 public class CharacterClass {
     private String className;
     private String pfsrdLink;

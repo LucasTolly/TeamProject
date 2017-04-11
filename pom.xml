@@ -68,6 +68,6 @@
 
   </dependencies>
   <build>
-    <finalName>TeamProjectUnique</finalName>
+    <finalName>TeamProject</finalName>
   </build>
 </project>
