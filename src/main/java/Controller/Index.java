@@ -27,13 +27,21 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 public class Index extends HttpServlet{
     private final Logger logger = Logger.getLogger((Index.class));
 
+    /**
+     * This doGet overrides the regular, calling a webserivce to put
+     * an object-fied JSON string onto the attributes for page access
+     * @param req
+     * @param resp
+     * @throws ServletException
+     * @throws IOException
+     */
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         try {
             ObjectMapper mapper = new ObjectMapper();
             Client client = ClientBuilder.newClient();
 
-            WebTarget target = client.target("http://localhost:8080/characterGenerator");
+            WebTarget target = client.target("http://52.14.40.39:8080/TeamProject/characterGenerator");
             String characterJsonString = target.request(MediaType.APPLICATION_JSON).get(String.class);
 
             GeneratedCharacter character = mapper.readValue(characterJsonString, GeneratedCharacter.class);

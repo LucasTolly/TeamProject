@@ -6,31 +6,52 @@ import javax.persistence.*;
  * Created by Joe on 3/24/2017.
  */
 @Entity
-@Table(name = "classes", schema = "team_project_testing", catalog = "")
+@Table(name = "classes", schema = "team_project", catalog = "")
 public class CharacterClass {
     private String className;
     private String pfsrdLink;
 
+    /**
+     * Getter for className
+     * @return className
+     */
     @Id
     @Column(name = "class_name", nullable = false, length = 25)
     public String getClassName() {
         return className;
     }
 
+    /**
+     * Setter for className
+     * @param className
+     */
     public void setClassName(String className) {
         this.className = className;
     }
 
+    /**
+     * Getter for pfsrdLink
+     * @return pfsrdLink
+     */
     @Basic
     @Column(name = "pfsrd_link", nullable = true, length = 200)
     public String getPfsrdLink() {
         return pfsrdLink;
     }
 
+    /**
+     * Setter for pfsrdLink
+     * @param pfsrdLink
+     */
     public void setPfsrdLink(String pfsrdLink) {
         this.pfsrdLink = pfsrdLink;
     }
 
+    /**
+     * Override for the equals method
+     * @param o
+     * @return
+     */
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -44,6 +65,10 @@ public class CharacterClass {
         return true;
     }
 
+    /**
+     * Override for the hashCode method
+     * @return
+     */
     @Override
     public int hashCode() {
         int result = className != null ? className.hashCode() : 0;

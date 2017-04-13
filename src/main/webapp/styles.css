@@ -1,5 +1,13 @@
+li {
+    margin-bottom: 10px;
+}
+
 .centerAlignment {
     text-align: center;
     display: block;
     margin-bottom: 10px;
+}
+
+.apiStructure {
+    text-align: left;
 }

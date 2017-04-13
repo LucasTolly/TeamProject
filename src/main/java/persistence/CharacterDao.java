@@ -11,7 +11,10 @@ import java.util.ArrayList;
  */
 public class CharacterDao {
 
-    // Generate random character
+    /**
+     * Generates a new character using the class Math's random method
+     * @return the new character
+     */
     public GeneratedCharacter generateCharacter() {
         GeneratedCharacter character = new GeneratedCharacter();
 
@@ -25,7 +28,11 @@ public class CharacterDao {
         return character;
     }
 
-    // Generate random alignment
+    /**
+     * Randomly generates a new alignment out of all the options
+     * quired for.
+     * @return a random alignment
+     */
     public Alignment getRandomAlignment(){
         Session session = SessionFactoryProvider.getSessionFactory().openSession();
 
@@ -34,7 +41,11 @@ public class CharacterDao {
         return  allRecords.get((int) Math.floor(Math.random() * allRecords.size()));
     }
 
-    // Generate random character
+    /**
+     * Randomly generates a new character class out of all the options
+     * quired for.
+     * @return a random character class
+     */
     public CharacterClass getRandomCharacterClass() {
         Session session = SessionFactoryProvider.getSessionFactory().openSession();
 
@@ -43,7 +54,11 @@ public class CharacterDao {
         return allRecords.get((int) Math.floor(Math.random() * allRecords.size()));
     }
 
-    // Generate random description
+    /**
+     * Randomly generates a new description out of all the options
+     * quired for.
+     * @return a random description
+     */
     public Description getRandomDescription() {
         Session session = SessionFactoryProvider.getSessionFactory().openSession();
 
@@ -52,7 +67,11 @@ public class CharacterDao {
         return  allRecords.get((int) Math.floor(Math.random() * allRecords.size()));
     }
 
-    // Generate random origin
+    /**
+     * Randomly generates a new origin out of all the options
+     * quired for.
+     * @return a random origin
+     */
     public Origin getRandomOrigin(){
         Session session = SessionFactoryProvider.getSessionFactory().openSession();
 
@@ -61,7 +80,11 @@ public class CharacterDao {
         return  allRecords.get((int) Math.floor(Math.random() * allRecords.size()));
     }
 
-    // Generate random quirk
+    /**
+     * Randomly generates a new quirk out of all the options
+     * quired for.
+     * @return a random quirk
+     */
     public Quirk getRandomQuirk(){
         Session session = SessionFactoryProvider.getSessionFactory().openSession();
 
@@ -70,7 +93,11 @@ public class CharacterDao {
         return  allRecords.get((int) Math.floor(Math.random() * allRecords.size()));
     }
 
-    // Generate random race
+    /**
+     * Randomly generates a new race out of all the options
+     * quired for.
+     * @return a random race
+     */
     public Race getRandomRace(){
         Session session = SessionFactoryProvider.getSessionFactory().openSession();
 

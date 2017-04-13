@@ -6,27 +6,43 @@ import javax.persistence.*;
  * Created by Joe on 3/24/2017.
  */
 @Entity
-@Table(name = "races", schema = "team_project_testing", catalog = "")
+@Table(name = "races", schema = "team_project", catalog = "")
 public class Race {
     private String raceName;
     private String pfsrdLink;
 
+    /**
+     * Getter for raceName
+     * @return
+     */
     @Id
     @Column(name = "race_name", nullable = false, length = 20)
     public String getRaceName() {
         return raceName;
     }
 
+    /**
+     * Setter for raceName
+     * @param raceName
+     */
     public void setRaceName(String raceName) {
         this.raceName = raceName;
     }
 
+    /**
+     * Getter for pfsrdLink
+     * @return
+     */
     @Basic
     @Column(name = "pfsrd_link", nullable = true, length = 200)
     public String getPfsrdLink() {
         return pfsrdLink;
     }
 
+    /**
+     * Setter for pfsrdLink
+     * @param pfsrdLink
+     */
     public void setPfsrdLink(String pfsrdLink) {
         this.pfsrdLink = pfsrdLink;
     }

@@ -7,6 +7,7 @@ import org.hibernate.service.ServiceRegistry;
 
 /**
  * Created by Joe on 3/24/2017
+ * Usual Factory for communicating with MySQL Server
  */
 
 public class SessionFactoryProvider {
