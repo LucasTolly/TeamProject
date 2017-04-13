@@ -1,0 +1,28 @@
+February 23rd:
+	Created Github
+	
+March 21st:
+	Planned out 1st draft of MySQL Database and began the GenerateCharacter class
+	
+March 23rd:
+	Added sql file that contains classes and races data
+
+March 24th:
+	Generated hibernate entities from the database
+	
+March 29th:
+	Created mockup of Origin/QuirkDao, decided later that they are not necessary
+	
+April 4th:
+	Created CharacterDao, which uses Math.randoms to randomly select rows from database queries to assign instance variables
+	Started first iteration of index.jsp
+	
+April 11th:
+	Finished up index.jsp, Index controller, json sender/application
+	
+April 12th:
+	Created simple test for CharacterDao, nothing to really assert
+	Finished documentation for how to use the web service, with API
+	Javadocs for all entities/persistence is done
+
+	
