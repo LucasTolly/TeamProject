@@ -15,14 +15,12 @@ Members:
 
 Pathfinder random generator:
 
-* Fantasy Level picklist/dropdown menu
-* Picks a random class
-* Motivation
+* Picks a random class with d20PFSRD link
 * Origin/Past
 * Reroll button
-* Defining Characteristic
-* Race
-* Name Generator
+* Description
+* Race with d20PFSRD link
+* Quirk
 
 ## Plan
 
