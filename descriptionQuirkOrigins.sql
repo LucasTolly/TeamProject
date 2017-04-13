@@ -2,12 +2,12 @@ INSERT INTO description (Description_String) VALUES ('Tall and brusque. Sometime
 INSERT INTO description (Description_String) VALUES ('Small and petite. Is shy around new people.');
 INSERT INTO description (Description_String) VALUES ('Easily exited at the thought of adventure, sometimes to their own detriment.');
 INSERT INTO description (Description_String) VALUES ('Loves long walks on the peach. Also enjoys other fruits, such as pears.');
-INSERT INTO description (Description_String) VALUES ('Is easily distracted by new things. Even if the new things aren't friendly.');
+INSERT INTO description (Description_String) VALUES ('Is easily distracted by new things. Even if the new things are not friendly.');
 INSERT INTO description (Description_String) VALUES ('Can be obsessive with perfection. Can often spend too much time on a single task.');
-INSERT INTO description (Description_String) VALUES ('Wants to explore ancient ruins. As long as they aren't dirty.');
+INSERT INTO description (Description_String) VALUES ('Wants to explore ancient ruins. As long as they are not dirty.');
 INSERT INTO description (Description_String) VALUES ('Average and normal. Except during a full moon.');
 INSERT INTO description (Description_String) VALUES ('Is completely honest, even if a white lie would serve the situation better.');
-INSERT INTO description (Description_String) VALUES ('Can't stop making up tall tales. Hard to tell what their thinking.');
+INSERT INTO description (Description_String) VALUES ('Cannot stop making up tall tales. Hard to tell what their thinking.');
 
 
 INSERT INTO origin (Origin_String) VALUES ('Came from a small town in the middle of no where. Clueless of how cities work.');
@@ -28,6 +28,3 @@ INSERT INTO quirk (Quirk_String) VALUES ('Is unable to talk.');
 INSERT INTO quirk (Quirk_String) VALUES ('Always looking to be the center of attention.');
 INSERT INTO quirk (Quirk_String) VALUES ('Needs to constantly groom their hair.');
 INSERT INTO quirk (Quirk_String) VALUES ('Always looking for a fight.');
-
-
-
